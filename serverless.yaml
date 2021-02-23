@@ -1,0 +1,13 @@
+service: VACCINE-BACKEND
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: python3.7
+  lambdaHashingVersion: 20201221
+
+
+functions:
+  hello:
+    handler: handler.hello
